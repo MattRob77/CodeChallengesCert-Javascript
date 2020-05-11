@@ -52,3 +52,6 @@ function phoneticLookup(val) {
 }
 
 phoneticLookup("charlie");
+
+
+solution:
