@@ -51,3 +51,31 @@ var myMusic = [
   }
   // Add a record here
 ];
+
+
+solution: 
+var myMusic = [
+  {
+    "artist": "Billy Joel",
+    "title": "Piano Man",
+    "release_year": 1973,
+    "formats": [
+      "CD",
+      "8T",
+      "LP"
+    ],
+    "gold": true
+  },
+  {
+    "artist": "Michael Jackson",
+    "title": "Billie Jean",
+    "release_year": 1982,
+    "formats": [
+      "CD",
+      "LP",
+      "Vinyl"
+    ]
+  }
+  // Add a record here
+
+];
