@@ -59,3 +59,27 @@ function updateRecords(id, prop, value) {
 }
 
 updateRecords(5439, "artist", "ABBA");
+
+
+
+solution:
+// Only change code below this line
+function updateRecords(id, prop, value) {
+
+  if (value === '') {
+    delete collection[id][prop]; // If the value is empty remove the prop
+  } else if (prop !== "tracks") {
+    collection[id][prop] = value;
+  } else {
+    if (!collection[id].hasOwnProperty('tracks')) {
+      collection[id].tracks = [];
+      collection[id].tracks.push(value);
+    } else {
+      collection[id].tracks.push(value);
+    }
+  }
+  return collection;
+}
+
+// Alter values below to test your code
+updateRecords(2468, "tracks", "Free");
