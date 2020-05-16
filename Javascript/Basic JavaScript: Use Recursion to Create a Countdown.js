@@ -24,3 +24,14 @@ function countdown(n){
   return;
 }
 // Only change code above this line
+
+
+solution:
+// Only change code below this line
+function countdown(n){
+  if (n < 1) {
+    return [] //if number if less than 1 return empty array
+  }
+  return;
+}
+// Only change code above this line
