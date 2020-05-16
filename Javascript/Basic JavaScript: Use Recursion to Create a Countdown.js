@@ -29,9 +29,11 @@ function countdown(n){
 solution:
 // Only change code below this line
 function countdown(n){
-  if (n < 1) {
-    return [] //if number if less than 1 return empty array
+  if (n < 1) { //if number is less than return empty array
+    return []
+  } else {
+    const array = countdown(n -1); //Beginning of countdown
   }
-  return;
+  return array; //returning the array 
 }
 // Only change code above this line
