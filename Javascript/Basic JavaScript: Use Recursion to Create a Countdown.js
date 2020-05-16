@@ -28,12 +28,13 @@ function countdown(n){
 
 solution:
 // Only change code below this line
-function countdown(n){
-  if (n < 1) { //if number is less than return empty array
-    return []
+function countdown(n) {
+  if (n < 1) { //if number is less than 1 return empty array
+    return [];
   } else {
-    const array = countdown(n -1); //Beginning of countdown
+    const arr = countdown(n - 1); //beginning of countdown
+    arr.unshift(n); //Adds to the beginning of the array
+    return arr; //return new array 
   }
-  return array; //returning the array 
 }
 // Only change code above this line
