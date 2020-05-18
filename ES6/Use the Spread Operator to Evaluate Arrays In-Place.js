@@ -21,3 +21,12 @@ let arr2;
 arr2 = [];  // Change this line
 
 console.log(arr2);
+
+
+solution:
+const arr1 = ['JAN', 'FEB', 'MAR', 'APR', 'MAY'];
+let arr2;
+
+arr2 = [...arr1];  // Used spread operator to bring in the data from array1
+
+console.log(arr2);
