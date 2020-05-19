@@ -25,3 +25,17 @@
 // Use the class keyword and write a constructor to create the Vegetable class.
 //
 // The Vegetable class allows you to create a vegetable object with a property name that gets passed to the constructor.
+
+
+solution:
+// Only change code below this line
+class Vegetable { //used class method 
+  constructor(name) { //contructor with object property name
+    this.name = name
+  }
+}
+
+// Only change code above this line
+
+const carrot = new Vegetable('carrot');
+console.log(carrot.name); // Should display 'carrot'
