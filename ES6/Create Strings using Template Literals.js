@@ -28,3 +28,24 @@
 //   '<li class="text-warning">var-on-top</li>',
 //   '<li class="text-warning">linebreak</li>'
 // ]
+
+
+solution:
+const result = {
+  success: ["max-length", "no-amd", "prefer-arrow-functions"],
+  failure: ["no-var", "var-on-top", "linebreak"],
+  skipped: ["id-blacklist", "no-dup-keys"]
+};
+function makeList(arr) {
+  "use strict";
+
+  // Only change code below this line
+  const resultDisplayArray = arr.map //interating over the array
+  (item => `<li class="text-warning">${item}</li>`); //using backticks and placeholder for item, also implementing destructuring
+
+  // Only change code above this line
+
+  return resultDisplayArray;
+}
+
+const resultDisplayArray = makeList(result.failure);
