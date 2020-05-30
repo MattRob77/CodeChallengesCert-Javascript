@@ -16,3 +16,12 @@
 // "ABC"
 // "abcabc"
 // Write a greedy regex that finds one or more criminals within a group of other people. A criminal is represented by the capital letter C.
+
+
+solution:
+let crowd = "P6P2P7P4P5CCCCCP3P1"
+let reCriminals = /C+/; 
+
+let matchedCriminals = crowd.match(reCriminals);
+
+//Console.log(matchedCriminals)
