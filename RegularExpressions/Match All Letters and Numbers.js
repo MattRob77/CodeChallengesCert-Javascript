@@ -21,5 +21,5 @@ let result = quoteSample.match(alphabetRegexV2).length;
 
 solution:
 let quoteSample = "The five boxing wizards jump quickly.";
-let alphabetRegexV2 = /\w/g; 
+let alphabetRegexV2 = /\w/g; //used shorthand \w to match letters and numbers
 let result = quoteSample.match(alphabetRegexV2).length;
