@@ -14,7 +14,10 @@
 //
 
 let caboose = "The last car on a train is the caboose";
-let lastRegex = /change/; // Change this line
+let lastRegex = /change/; 
 let result = lastRegex.test(caboose);
 
 solution:
+let caboose = "The last car on a train is the caboose";
+let lastRegex = /caboose$/;
+let result = lastRegex.test(caboose);
