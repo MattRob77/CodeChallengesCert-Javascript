@@ -14,10 +14,10 @@
 //
 
 let caboose = "The last car on a train is the caboose";
-let lastRegex = /change/; 
+let lastRegex = /change/;
 let result = lastRegex.test(caboose);
 
 solution:
 let caboose = "The last car on a train is the caboose";
-let lastRegex = /caboose$/;
+let lastRegex = /caboose$/; //using $ to match end of string
 let result = lastRegex.test(caboose);
