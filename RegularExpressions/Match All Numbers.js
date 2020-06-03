@@ -12,5 +12,5 @@ let result = movieName.match(numRegex).length;
 
 solution:
 let movieName = "2001: A Space Odyssey";
-let numRegex = /\d/g; 
+let numRegex = /\d/g; //used shorthand method for matching numbers
 let result = movieName.match(numRegex).length;
