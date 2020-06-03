@@ -17,5 +17,5 @@ let result = quoteSample.match(nonAlphabetRegex).length;
 
 solution:
 let quoteSample = "The five boxing wizards jump quickly.";
-let nonAlphabetRegex = /\W/g; 
+let nonAlphabetRegex = /\W/g; //use shorthand method for matching letters and numbers
 let result = quoteSample.match(nonAlphabetRegex).length;
