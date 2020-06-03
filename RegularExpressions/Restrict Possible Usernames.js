@@ -19,5 +19,5 @@ let result = userCheck.test(username);
 
 solution:
 let username = "JackOfAllTrades";
-let userCheck = /^[a-z]([0-9][0-9]+|[a-z]+\d*)$/i;
+let userCheck = /^[a-z]([0-9][0-9]+|[a-z]+\d*)$/i;//solution for code block
 let result = userCheck.test(username);
