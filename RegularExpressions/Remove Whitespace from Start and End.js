@@ -10,3 +10,6 @@ let wsRegex = /change/; // Change this line
 let result = hello; // Change this line
 
 solution:
+let hello = "   Hello, World!  ";
+let wsRegex = /^\s+|\s+$/g; 
+let result = hello.replace(wsRegex, "");
