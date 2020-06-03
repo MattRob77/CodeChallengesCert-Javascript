@@ -11,5 +11,5 @@ let result = hello; // Change this line
 
 solution:
 let hello = "   Hello, World!  ";
-let wsRegex = /^\s+|\s+$/g; 
-let result = hello.replace(wsRegex, "");
+let wsRegex = /^\s+|\s+$/g; //shorthand method
+let result = hello.replace(wsRegex, ""); //replace 
