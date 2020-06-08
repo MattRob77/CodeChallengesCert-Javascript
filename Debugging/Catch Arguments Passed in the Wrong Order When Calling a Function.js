@@ -20,5 +20,5 @@ function raiseToPower(b, e) {
 
 let base = 2;
 let exp = 3;
-let power = raiseToPower(base, exp);
+let power = raiseToPower(base, exp); //changed order not throwing an error
 console.log(power);
