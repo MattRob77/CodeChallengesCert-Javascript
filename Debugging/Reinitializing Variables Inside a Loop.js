@@ -33,7 +33,7 @@ function zeroArray(m, n) {
   let newArray = [];
   for (let i = 0; i < m; i++) {
     // Adds the m-th row into newArray
-    let row = [] 
+    let row = [] //Used order of operation to move row = empty array 
 
     for (let j = 0; j < n; j++) {
       // Pushes n zeroes into the current row to create the columns
