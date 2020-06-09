@@ -20,4 +20,8 @@ let myArray = ["a", "b", "c", "d"];
 
 console.log(myArray);
 //
+
 solution:
+let myArray = ["a", "b", "c", "d"];
+  myArray[1] = "I approve of this code" 
+console.log(myArray);
