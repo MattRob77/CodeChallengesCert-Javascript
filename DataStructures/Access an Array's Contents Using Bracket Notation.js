@@ -23,5 +23,5 @@ console.log(myArray);
 
 solution:
 let myArray = ["a", "b", "c", "d"];
-  myArray[1] = "I approve of this code" 
+  myArray[1] = "I approve of this code" //bracket notation 
 console.log(myArray);
