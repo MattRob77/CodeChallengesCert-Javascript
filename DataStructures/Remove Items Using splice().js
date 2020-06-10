@@ -25,6 +25,6 @@ console.log(arr);
 solution:
 const arr = [2, 4, 5, 1, 7, 5, 2, 1];
 
-  arr.splice(1, 4)
+  arr.splice(1, 4)//delets elements from middle of the array and returns sum
 
 console.log(arr);
