@@ -30,8 +30,8 @@ console.log(popShift(['challenge', 'is', 'not', 'complete']));
 
 solution:
 function popShift(arr) {
-  let popped = arr.pop();
-  let shifted = arr.shift();
+  let popped = arr.pop();//removed element from the beginning of the array
+  let shifted = arr.shift();//removed element from the end of the array
   return [shifted, popped];
 }
 
