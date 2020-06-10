@@ -25,9 +25,9 @@ console.log(mixedNumbers(['IV', 5, 'six']));
 solution:
 function mixedNumbers(arr) {
 
-  arr.unshift('I', 2, 'three');
-  arr.push(7, 'VIII', 9);
-  
+  arr.unshift('I', 2, 'three'); //added to the beginning of the array
+  arr.push(7, 'VIII', 9); //added to the end of the array  
+
   return arr;
 }
 
