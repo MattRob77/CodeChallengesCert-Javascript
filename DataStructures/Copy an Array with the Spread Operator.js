@@ -29,8 +29,8 @@ function copyMachine(arr, num) {
   let newArr = [];
   while (num >= 1) {
 
-  newArr.push([...arr]);
-    
+  newArr.push([...arr]);//used the spread operator and the push method to complete structure
+
     num--;
   }
   return newArr;
