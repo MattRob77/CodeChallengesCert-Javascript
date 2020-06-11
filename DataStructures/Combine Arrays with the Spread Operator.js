@@ -23,7 +23,7 @@ console.log(spreadOut());
 solution:
 function spreadOut() {
   let fragment = ['to', 'code'];
-  let sentence = ["learning", ...fragment, "is", "fun"];
+  let sentence = ["learning", ...fragment, "is", "fun"]; //used spread operator on the array to make it cleaner code
   return sentence;
 }
 
