@@ -25,7 +25,7 @@ console.log(htmlColorNames(['DarkGoldenRod', 'WhiteSmoke', 'LavenderBlush', 'Pal
 
 solution:
 function htmlColorNames(arr) {
-  arr.splice(0, 2, "DarkSalmon", "BlanchedAlmond");
+  arr.splice(0, 2, "DarkSalmon", "BlanchedAlmond");//adding splice method to delete elements and import in elements
   return arr;
 }
 
