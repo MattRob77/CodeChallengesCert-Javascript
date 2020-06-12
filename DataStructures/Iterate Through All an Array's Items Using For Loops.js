@@ -35,12 +35,12 @@ solution:
 function filteredArray(arr, elem) {
   let newArr = [];
 
-   for (let i = 0; i < arr.length; i++) {
-    if (arr[i].indexOf(elem) == -1) {
-      newArr.push(arr[i]);
+   for (let i = 0; i < arr.length; i++) { //interates through and increments
+    if (arr[i].indexOf(elem) == -1) { //checks for element if it is not present it continues
+      newArr.push(arr[i]); //injects the element into a new array 
     }
   }
-  
+
   return newArr;
 }
 
