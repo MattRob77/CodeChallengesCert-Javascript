@@ -15,7 +15,7 @@ reverseString("hello");
 solution:
 function reverseString(str) {
   return str
-    .split("")
+    .split("") //reversed the string 
     .reverse()
     .join("")
 
