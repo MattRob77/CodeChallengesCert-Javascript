@@ -17,10 +17,10 @@ factorialize(5);
 
 solution:
 function factorialize(num) {
-  if (num === 0) {
+  if (num === 0) { //conditional statement if n = 0 return 1
     return 1;
   }
-  return num * factorialize(num - 1);
+  return num * factorialize(num - 1); //factorialize the number 
 }
 
 factorialize(5);
