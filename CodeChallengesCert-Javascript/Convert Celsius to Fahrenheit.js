@@ -13,7 +13,7 @@ convertToF(30);
 
 solution:
 function convertToF(celsius) {
-  let fahrenheit = celsius * (9/5) + 32
+  let fahrenheit = celsius * (9/5) + 32 //used equation for fahrenheit to celsius
   return fahrenheit;
 }
 
