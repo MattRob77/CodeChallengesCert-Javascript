@@ -12,7 +12,7 @@ confirmEnding("Bastian", "n");
 
 solution:
 function confirmEnding(str, target) {
-  return str.slice(str.length - target.length) === target
+  return str.slice(str.length - target.length) === target //copy string using slice and then returned sliced piece
 }
 
 confirmEnding("Bastian", "n");
