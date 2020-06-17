@@ -4,11 +4,17 @@
 // Your response should be a number.
 
 function findLongestWordLength(str) {
-  return str.length;
-}
+  var words = str.split(' ');
+  var maxLength = 0;
 
-findLongestWordLength("The quick brown fox jumped over the lazy dog");
+  for (var i = 0; i < words.length; i++) {
+    if (words[i].length > maxLength) {
+      maxLength = words[i].length;
+    }
+  }
+
+  return maxLength;
+}
 
 
 solution:
-ß
