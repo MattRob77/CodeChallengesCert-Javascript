@@ -3,6 +3,8 @@
 //
 // Your response should be a number.
 
+
+solution:
 function findLongestWordLength(str) {
   var words = str.split(' '); //convert the string into an array
   var maxLength = 0; //declare a variable of 0
@@ -13,8 +15,5 @@ function findLongestWordLength(str) {
     }
   }
 
-  return maxLength; //returns the variable maxLength 
+  return maxLength; //returns the variable maxLength
 }
-
-
-solution:
