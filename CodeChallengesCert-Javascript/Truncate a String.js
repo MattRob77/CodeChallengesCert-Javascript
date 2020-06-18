@@ -12,8 +12,8 @@ truncateString("A-tisket a-tasket A green and yellow basket", 8);
 
 solution:
 function truncateString(str, num) {
-  if (str.length > num) {
-    return str.slice(0, num) + "...";
+  if (str.length > num) { //if string length is greater than num
+    return str.slice(0, num) + "..."; //return Truncate + ... spread operator
   } else {
     return str
   }
