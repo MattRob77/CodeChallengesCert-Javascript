@@ -13,10 +13,10 @@ booWho(null);
 
 solution:
 function booWho(bool) {
-  if (bool === true || bool === false) {
-    return true;
-  } else {
-    return false
+  if (bool === true || bool === false) { //if boolean input is true or boolean false, if it is
+    return true; //return true
+  } else { //else
+    return false //return false 
   }
 }
 
