@@ -5,10 +5,14 @@
 
 
 function titleCase(str) {
-  return str;
+  return str.toLowerCase()
 }
 
 titleCase("I'm a little tea pot");
 
 
 solution:
+function titleCase(str) {
+  return str.toLowerCase().replace(/(^|\s)\S/g, L => L.toUpperCase());
+}
+titleCase("I'm a little tea pot");
