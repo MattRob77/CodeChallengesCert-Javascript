@@ -10,8 +10,8 @@ findElement([1, 2, 3, 4], num => num % 2 === 0);
 
 
 solution:
-function findElement(arr, func) {
-  return arr.find(func);
+function findElement(arr, func) { //created function to find element
+  return arr.find(func); // used .find method to return first element
 }
 
 findElement([1, 2, 3, 4], num => num % 2 === 0);
