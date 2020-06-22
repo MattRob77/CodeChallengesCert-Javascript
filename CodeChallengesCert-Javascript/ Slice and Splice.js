@@ -16,11 +16,11 @@ frankenSplice([1, 2, 3], [4, 5, 6], 1);
 
 
 solution:
-function frankenSplice(arr1, arr2, n) {
-  	var arr2Copy = arr2.slice();
-	for (var i = 0; i < arr1.length; i++) {
+function frankenSplice(arr1, arr2, n) { //created function  with 3 args
+  	var arr2Copy = arr2.slice();//makes copy of array and and turns it into a new array object
+	for (var i = 0; i < arr1.length; i++) { //used psuedocode syntax for loop
 		arr2Copy.splice(n++, 0, arr1[i]);
 	}
-  return arr2Copy;
+  return arr2Copy; //return new array copy 
 }
 frankenSplice([1, 2, 3], [4, 5], 1)
