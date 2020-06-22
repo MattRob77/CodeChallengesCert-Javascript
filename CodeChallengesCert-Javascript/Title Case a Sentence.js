@@ -16,3 +16,7 @@ function titleCase(str) {
   return str.toLowerCase().replace(/(^|\s)\S/g, L => L.toUpperCase());
 }
 titleCase("I'm a little tea pot");
+//lowercased the string str.toLowerCase()
+//replaced the first letter to uppercase using.replace
+//used /(^|\s)\S/g syntax to find all non-whitespaced characters starting at the beginning of the string or after the whitespace
+//g is used for global
