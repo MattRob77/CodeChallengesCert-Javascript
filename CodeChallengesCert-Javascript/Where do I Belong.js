@@ -15,7 +15,7 @@ getIndexToIns([40, 60], 50);
 
 solution:
 function getIndexToIns(arr, num) {
-  return arr.filter(val => num > val).length
+  return arr.filter(val => num > val).length//.filter to check for values, callback function => num is greate than value 
 }
 
 getIndexToIns([40, 60], 50);
