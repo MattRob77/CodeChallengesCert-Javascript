@@ -18,9 +18,10 @@ mutation(["hello", "hey"]);
 
 solution:
 function mutation(arr) {
-  for(var i = 0; i <= arr[1].length -1; i++){
-    if (arr[0].toLowerCase().indexOf(arr[1][i].toLowerCase()) == -1)
-    return false;
+  var test = arr[1].toLowerCase(); //made the two strings in the array lowercase. (test) will hold what we are looking for in target.
+  var target = arr[0].toLowerCase();
+  for (var i = 0; i < test.length; i++) { //looped through test elements to search if they are not found return false
+    if (target.indexOf(test[i]) < 0) return false;
   }
-    return true;
+  return true;
 }
