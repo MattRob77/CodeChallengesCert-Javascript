@@ -20,4 +20,8 @@ let dog = {
 };
 
 
-solution: 
+solution:
+let dog = {
+  name: "Mango",
+  numLegs: 4
+};
