@@ -21,7 +21,7 @@ let dog = {
 
 
 solution:
-let dog = {
-  name: "Mango",
-  numLegs: 4
+let dog = { //set dog object
+  name: "Mango", //property value to dog's name
+  numLegs: 4 //property value of how many legs the dog has
 };
