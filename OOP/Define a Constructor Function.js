@@ -16,3 +16,9 @@
 // Create a constructor, Dog, with properties name, color, and numLegs that are set to a string, a string, and a number, respectively.
 
 solution:
+
+function Dog() {
+  this.name = "Mango";
+  this.color = "brown";
+  this.numLegs = 4;
+}
