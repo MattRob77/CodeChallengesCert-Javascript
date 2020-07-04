@@ -24,5 +24,5 @@ let dog = {
   numLegs: 4
 };
 
-console.log(dog.name)
-console.log(dog.numLegs)
+console.log(dog.name)//grabs dog's name and prints it
+console.log(dog.numLegs) //grabs dog's leg count and prints it
