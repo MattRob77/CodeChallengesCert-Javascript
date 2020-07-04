@@ -17,8 +17,8 @@
 
 solution:
 
-function Dog() {
-  this.name = "Mango";
+function Dog() { //defined property using constructor 
+  this.name = "Mango"; //set properties with this keyword
   this.color = "brown";
   this.numLegs = 4;
 }
