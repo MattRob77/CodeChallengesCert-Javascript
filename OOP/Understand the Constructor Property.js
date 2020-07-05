@@ -39,7 +39,7 @@ function Dog(name) {
 
 
 function joinDogFraternity(candidate) {
-  if (candidate.constructor === Dog) {
+  if (candidate.constructor === Dog) { //conditional with constructor
     return true;
   } else {
     return false;
