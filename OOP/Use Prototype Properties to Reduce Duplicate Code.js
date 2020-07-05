@@ -24,3 +24,9 @@ let beagle = new Dog("Snoopy");
 
 
 solution:
+function Dog(name) {
+  this.name = name;
+  Dog.prototype.numLegs = 4; //Used protype for the function 
+}
+
+let beagle = new Dog("Snoopy");
