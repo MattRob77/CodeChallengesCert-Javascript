@@ -45,3 +45,6 @@ console.log(penguin.fly());
 
 
 solution:
+Penguin.prototype.fly = function() {
+  return "Alas, this is a flightless bird.";
+};
