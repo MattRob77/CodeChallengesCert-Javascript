@@ -53,3 +53,5 @@ console.log(
 
 
 solution:
+const tea4GreenTeamFCC = getTea(prepareGreenTea, 27);
+const tea4BlackTeamFCC = getTea(prepareBlackTea,13);
