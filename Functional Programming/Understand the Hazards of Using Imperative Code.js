@@ -66,3 +66,5 @@ console.log(finalTabs.tabs);
 
 
 solution:
+var tabsBeforeIndex = this.tabs.slice(0, index); 
+  var tabsAfterIndex = this.tabs.slice(index+1);
