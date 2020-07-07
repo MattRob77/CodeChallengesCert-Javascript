@@ -43,3 +43,4 @@ const tea4TeamFCC = null;
 
 
 solution:
+const tea4TeamFCC = getTea(40);
