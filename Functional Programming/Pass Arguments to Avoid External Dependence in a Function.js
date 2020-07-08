@@ -28,3 +28,7 @@ function incrementer () {
 
 
 solution:
+function incrementer (value) {
+  return value + 1
+
+}
