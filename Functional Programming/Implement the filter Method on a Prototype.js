@@ -24,3 +24,8 @@ var new_s = s.myFilter(function(item){
 
 
 //solution:
+for (let i = 0; i < this.length; i++) {
+    if (callback(this[i]) === true) {
+      newArray.push(this[i]);
+    }
+  }
