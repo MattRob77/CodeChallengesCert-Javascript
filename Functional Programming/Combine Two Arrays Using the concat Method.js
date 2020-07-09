@@ -20,4 +20,5 @@ nonMutatingConcat(first, second);
 
 
 
-//solution: 
+//solution:
+return original.concat(attach)
