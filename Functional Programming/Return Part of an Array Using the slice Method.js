@@ -22,4 +22,5 @@ sliceArray(inputAnim, 1, 3);
 
 
 
-//solution: 
+//solution:
+return anim.slice(beginSlice, endSlice);
