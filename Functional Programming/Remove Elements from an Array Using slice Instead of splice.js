@@ -23,4 +23,5 @@ nonMutatingSplice(inputCities);
 
 
 
-//solution: 
+//solution:
+return cities.slice(0, 3);
