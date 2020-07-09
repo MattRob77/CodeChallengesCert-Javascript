@@ -26,4 +26,5 @@ nonMutatingPush(first, second);
 
 
 
-//solution: 
+//solution:
+return original.concat(newItem) //using concat instead of push to make sure the array does not mutate
