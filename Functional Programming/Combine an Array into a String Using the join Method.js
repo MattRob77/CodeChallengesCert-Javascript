@@ -19,4 +19,5 @@ sentensify("May-the-force-be-with-you");
 
 
 
-//solution: 
+//solution:
+return str.split(/\W/).join(" ");
