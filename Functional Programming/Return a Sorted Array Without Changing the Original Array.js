@@ -18,3 +18,6 @@ nonMutatingSort(globalArray);
 
 
 //solution:
+return [].concat(arr).sort(function(a, b) {
+    return a - b
+  })
